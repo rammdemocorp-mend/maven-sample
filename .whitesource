@@ -1,7 +1,7 @@
 {
 "settingsInheritedFrom": "rammdemocorp-mend/mend-config@main",
 "issueSettings": {
-  "minSeverityLevel": "MEDUIM",
+  "minSeverityLevel": "LOW",
   "issueType": "DEPENDENCY"
 }
 }
