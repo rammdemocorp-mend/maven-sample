@@ -1,5 +1,5 @@
 {
-"settingsInheritedFrom": "rammdemocorp-mend/mend-config@main",
+"settingsInheritedFrom": "rammdemocorp-mend/whitesource-config@main",
 "issueSettings": {
   "minSeverityLevel": "CRITICAL",
   "issueType": "DEPENDENCY"
