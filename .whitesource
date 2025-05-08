@@ -1,15 +1,17 @@
 {
-"settingsInheritedFrom": "rammdemocorp-mend/whitesource-config@main"
-"remediateSettings": {
+  "settingsInheritedFrom": "rammdemocorp-mend/whitesource-config@main",
+  "remediateSettings": {
     "workflowRules": {
       "enabled": false
     },
     "enableRenovate": true,
     "packageRules": [
-    {
-      "groupName": "Mend: grouped dependency updates",
-      "matchPackageNames": ["*"]
-    }
+      {
+        "groupName": "Mend: grouped dependency updates",
+        "matchPackageNames": [
+          "*"
+        ]
+      }
     ],
     "extends": [
       "config:recommended",
