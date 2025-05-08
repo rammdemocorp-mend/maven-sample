@@ -4,7 +4,7 @@
     "workflowRules": {
       "enabled": true
     },
-    "enableRenovate": true,
+    "enableRenovate": false,
     "packageRules": [
       {
         "matchPackageNames": ["*"],
