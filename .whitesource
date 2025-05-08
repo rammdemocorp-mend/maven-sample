@@ -1,3 +1,22 @@
 {
 "settingsInheritedFrom": "rammdemocorp-mend/whitesource-config@main"
+"remediateSettings": {
+    "workflowRules": {
+      "enabled": false
+    },
+    "enableRenovate": true,
+    "packageRules": [
+    {
+      "groupName": "Mend: grouped dependency updates",
+      "matchPackageNames": ["*"]
+    }
+    ],
+    "extends": [
+      "config:recommended",
+      "mergeConfidence:all-badges",
+      "local>rammdemocorp-mend/whitesource-config:smart-merge",
+      ":disableRateLimiting"
+    ],
+    "branchPrefix": "mend_update/"
+  },
 }
