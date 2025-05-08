@@ -18,5 +18,5 @@
       ":disableRateLimiting"
     ],
     "branchPrefix": "mend_update/"
-  },
+  }
 }
