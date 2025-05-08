@@ -7,16 +7,13 @@
     "enableRenovate": true,
     "packageRules": [
       {
-        "groupName": "Mend: grouped dependency updates",
-        "matchPackageNames": [
-          "*"
-        ]
+        "matchPackageNames": ["*"],
+        "commitMessagePrefix": "[JIRA-123]"
       }
     ],
     "extends": [
       "config:recommended",
       "mergeConfidence:all-badges",
-      "local>rammdemocorp-mend/whitesource-config:smart-merge",
       ":disableRateLimiting"
     ],
     "branchPrefix": "mend_update/"
