@@ -1,5 +1,6 @@
 {
   "settingsInheritedFrom": "rammdemocorp-mend/whitesource-config@main",
+  "reviewers": ["ram-mend"],
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
@@ -11,7 +12,6 @@
         "commitMessagePrefix": "[JIRA-123]"
       }
     ],
-    "reviewers": ["ram-mend"],
     "extends": [
       "config:recommended",
       "mergeConfidence:all-badges",
