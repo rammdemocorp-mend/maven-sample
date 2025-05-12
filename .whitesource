@@ -14,7 +14,8 @@
     "extends": [
       "config:recommended",
       "mergeConfidence:all-badges",
-      ":disableRateLimiting"
+      ":disableRateLimiting",
+      "reviewers": ["required:ram-mend"]
     ],
     "branchPrefix": "mend_update/"
   }
