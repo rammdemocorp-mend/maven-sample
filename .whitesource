@@ -11,7 +11,7 @@
         "commitMessagePrefix": "[JIRA-123]"
       }
     ],
-    "reviewers": ["team:ram-mend"],
+    "reviewers": ["ram-mend"],
     "extends": [
       "config:recommended",
       "mergeConfidence:all-badges",
