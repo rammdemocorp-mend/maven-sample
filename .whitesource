@@ -11,11 +11,11 @@
         "commitMessagePrefix": "[JIRA-123]"
       }
     ],
+    "reviewers": ["required:ram-mend"],
     "extends": [
       "config:recommended",
       "mergeConfidence:all-badges",
-      ":disableRateLimiting",
-      "reviewers": ["required:ram-mend"]
+      ":disableRateLimiting"
     ],
     "branchPrefix": "mend_update/"
   }
