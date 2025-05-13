@@ -1,6 +1,5 @@
 {
   "settingsInheritedFrom": "rammdemocorp-mend/whitesource-config@main",
-  "reviewers": ["ram-mend"],
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
@@ -15,7 +14,8 @@
     "extends": [
       "config:recommended",
       "mergeConfidence:all-badges",
-      ":disableRateLimiting"
+      ":disableRateLimiting",
+      ":reviewer("ram-mend")
     ],
     "branchPrefix": "mend_update/"
   }
