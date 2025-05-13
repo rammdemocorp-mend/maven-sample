@@ -15,7 +15,7 @@
       "config:recommended",
       "mergeConfidence:all-badges",
       ":disableRateLimiting",
-      ":reviewer("ram-mend")"
+      ":reviewer('ram-mend')"
     ],
     "branchPrefix": "mend_update/"
   }
