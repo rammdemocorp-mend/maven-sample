@@ -5,6 +5,7 @@
       "enabled": true
     },
     "enableRenovate": true,
+    "reviewers": ["ram-mend"],
     "packageRules": [
       {
         "matchPackageNames": ["*"],
@@ -14,8 +15,7 @@
     "extends": [
       "config:recommended",
       "mergeConfidence:all-badges",
-      ":disableRateLimiting",
-      ":reviewer('ram-mend')"
+      ":disableRateLimiting"
     ],
     "branchPrefix": "mend_update/"
   }
