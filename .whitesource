@@ -6,7 +6,7 @@
     },
     "enableRenovate": true,
     "reviewers": ["ram-mend"],
-    "prConcurrentLimit": 1
+    "prConcurrentLimit": 1,
     "packageRules": [
       {
         "matchPackageNames": ["*"],
